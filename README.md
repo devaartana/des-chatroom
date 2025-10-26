@@ -13,3 +13,39 @@ To decrypt the ciphertext, reverse the order of the 16 round keys and run the en
 
 # Chat Room Diagram
 ![Chat room diagram](./resource/image/Chat-Room-Diagram.svg)
+
+# How To Run
+
+1. Clone the repository
+
+```sh
+git clone https://github.com/devaartana/des-chatroom.git
+cd des-chatroom
+```
+
+2. Compile to binary file
+
+```sh
+g++ server.cpp -o server
+g++ client.cpp -o client
+```
+
+3. Run the Chatroom
+
+    You must run the server first, before any clients can connect.    
+    
+    Run the server in your terminal
+    ```
+    ./server
+    ```
+
+    Run the client in new terminal window 
+    ```
+    ./client
+    ```
+    (You can repeat this step in multiple terminals to have many clients connect to the chatroom)
+    
+
+# Reference
+
+https://github.com/cjchirag7/chatroom-cpp#
