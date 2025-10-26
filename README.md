@@ -2,7 +2,7 @@
 
 | Name           | NRP        | Kelas     |
 | ---            | ---        | ----------|
-| Randi Palguna Artayasa | 5025221020 | Keamanan Informasi (B) |
+| Randi Palguna Artayasa | 5025231020 | Keamanan Informasi (B) |
 | I Kadek Arya Deva Artana  | 5025231157 | Keamanan Informasi (B) |
 
 ## Encryption Method
