@@ -517,7 +517,12 @@ void send_messages(int sock, round_keys key) {
 }
 
 int main() {
-  int sock = connect_to_server("127.0.0.1", 10000);
+  string server_ip;
+  cout << "Masukkan server IP" << '\n';
+  cout << "[You]: ";
+  cin >> server_ip;
+  cin.ignore();
+  int sock = connect_to_server(server_ip.c_str(), 10000);
   round_keys key = generate_round_keys("encryption_scheme");
   
   thread receiver_thread(receive_messages, sock, key);
